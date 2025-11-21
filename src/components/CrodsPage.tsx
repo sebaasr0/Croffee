@@ -193,17 +193,7 @@ export function CrodsPage({ onProductClick }: CrodsPageProps) {
       <Colombia />
       <Ethiopia />
       
-      <div className="absolute flex h-[calc(1px*((var(--transform-inner-width)*0.0020833287853747606)+(var(--transform-inner-height)*0.9999978542327881)))] items-center justify-center left-0 top-[202px] w-[calc(1px*((var(--transform-inner-height)*0.0020833287853747606)+(var(--transform-inner-width)*0.9999978542327881)))]" style={{ "--transform-inner-width": "1440", "--transform-inner-height": "0" } as React.CSSProperties}>
-        <div className="flex-none rotate-[359.881deg]">
-          <div className="h-0 relative w-[1440px]">
-            <div className="absolute bottom-0 left-0 right-0 top-[-1px]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1440 1">
-                <line id="Line 3" stroke="var(--stroke-0, black)" x2="1440" y1="0.5" y2="0.5" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="absolute left-0 right-0 top-[202px] h-[1px] bg-black" />
       
       <Group10 />
       

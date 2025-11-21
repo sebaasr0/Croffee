@@ -113,6 +113,7 @@ export default function App() {
             <HomePage 
               onShopNowClick={handleShopNowClick}
               onProductClick={handleProductClick}
+              onAboutUsClick={() => handleNavigate('about-us')}
             />
           )}
 

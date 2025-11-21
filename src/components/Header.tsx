@@ -21,13 +21,13 @@ export function Header({ onCartClick, onNavigate }: HeaderProps) {
       </button>
       <button
         onClick={() => onNavigate('ground-and-whole-grain')}
-        className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[428px] not-italic text-[15px] text-black top-[44px] w-[219px] cursor-pointer hover:opacity-80 transition-opacity"
+        className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[428px] not-italic text-[15px] text-black top-[44px] whitespace-nowrap cursor-pointer hover:opacity-80 transition-opacity"
       >
         Ground and whole grain
       </button>
       <button
         onClick={() => onNavigate('crods')}
-        className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[811.5px] not-italic text-[15px] text-black text-center top-[44px] translate-x-[-50%] w-[157px] cursor-pointer hover:opacity-80 transition-opacity"
+        className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[811.5px] not-italic text-[15px] text-black text-center top-[44px] translate-x-[-50%] whitespace-nowrap cursor-pointer hover:opacity-80 transition-opacity"
       >
         Crods
       </button>

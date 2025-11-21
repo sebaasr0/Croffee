@@ -3,6 +3,7 @@ import imgAHighResolutionHomepageHeroIllustrationInAMatureRetroStyleInspiredByCl
 interface HomePageProps {
   onShopNowClick: () => void;
   onProductClick?: (productId: string) => void;
+  onAboutUsClick?: () => void;
 }
 
 function ShopNowButton({ onClick }: { onClick: () => void }) {
@@ -19,7 +20,7 @@ function ShopNowButton({ onClick }: { onClick: () => void }) {
   );
 }
 
-export function HomePage({ onShopNowClick }: HomePageProps) {
+export function HomePage({ onShopNowClick, onAboutUsClick }: HomePageProps) {
   return (
     <div className="bg-white w-full min-h-screen" data-name="HomePage">
       <div className="relative h-[688px] w-full" data-name="Hero Section">
@@ -45,9 +46,12 @@ export function HomePage({ onShopNowClick }: HomePageProps) {
             </div>
             <div>
               <h4 className="font-['Aclonica:Regular',sans-serif] mb-4">Quick Links</h4>
-              <p className="font-['Afacad:Regular',sans-serif] text-[#CCC]">About Us</p>
-              <p className="font-['Afacad:Regular',sans-serif] text-[#CCC] mt-2">Our Coffee</p>
-              <p className="font-['Afacad:Regular',sans-serif] text-[#CCC] mt-2">Contact</p>
+              <button 
+                onClick={onAboutUsClick}
+                className="font-['Afacad:Regular',sans-serif] text-[#CCC] hover:text-white transition-colors cursor-pointer"
+              >
+                About Us
+              </button>
             </div>
             <div>
               <h4 className="font-['Aclonica:Regular',sans-serif] mb-4">Newsletter</h4>

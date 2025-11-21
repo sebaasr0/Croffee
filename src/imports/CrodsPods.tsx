@@ -9,8 +9,8 @@ function Group() {
   return (
     <div className="absolute contents left-[30px] top-[27px]">
       <p className="absolute font-['Aclonica:Regular',sans-serif] h-[51px] leading-[normal] left-[30px] not-italic text-[48px] text-black top-[27px] w-[239px]">CROFFEE</p>
-      <p className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[428px] not-italic text-[15px] text-black top-[44px] w-[219px]">Ground and whole grain</p>
-      <p className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[811.5px] not-italic text-[15px] text-black text-center top-[44px] translate-x-[-50%] w-[157px]">Crods</p>
+      <p className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[428px] not-italic text-[15px] text-black top-[44px] whitespace-nowrap">Ground and whole grain</p>
+      <p className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[811.5px] not-italic text-[15px] text-black text-center top-[44px] translate-x-[-50%] whitespace-nowrap">Crods</p>
       <p className="absolute font-['Aclonica:Regular',sans-serif] h-[18px] leading-[normal] left-[1013px] not-italic text-[15px] text-black top-[44px] w-[85px]">About us</p>
       <div className="absolute h-[30px] left-[1399px] top-[34px] w-[32px]" data-name="image 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
